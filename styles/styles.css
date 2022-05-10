@@ -1,12 +1,13 @@
+
 @font-face {
     font-family:"tahu";
-    src: url(./Tahu!.ttf);
+    src: url(./Fonts/Tahu!.ttf);
 
     font-family: "bahnschrift";
-    src: url(./Bahnschrift\ Regular.ttf);
+    src: url(./Fonts/Bahnschrift\ Regular.ttf);
 }
 
-/* NAVIGATION & HEADER */
+/* ---------------------------------------------------- NAVIGATION ---------------------------------------------------- */
 
 body{
     background-color: #1DFAA8;
@@ -14,30 +15,41 @@ body{
     
 a:hover{
 
-    color: black;
+    color: rgb(57, 114, 221);
+    text-decoration: none;
+
     
 }
-    .navbar{
+
+.navbar{
     
-    color: antiquewhite;
-    z-index: 1;
-    width: 992px;
-    height: 64px;
-    left: 17%;
-    top: 30px;
-    
-    
-    background: rgba(255, 255, 255, 0.1);
-    border: 1.56195px solid #FFFFFF;
-    box-shadow: inset 25.668px -25.668px 25.668px rgba(194, 194, 194, 0.1), inset -25.668px 25.668px 25.668px rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(51.336px);
-    border-radius: 74.1925px;
-    }
+color: antiquewhite;
+z-index: 1;
+width: 992px;
+height: 64px;
+left: 17%;
+top: 30px;
+text-decoration: none;
     
     
-    .navbar .logo {
-        width: 7%;
-        padding-bottom: 8px;
+background: rgba(255, 255, 255, 0.1);
+border: 1.56195px solid #FFFFFF;
+box-shadow: inset 25.668px -25.668px 25.668px rgba(194, 194, 194, 0.1), inset -25.668px 25.668px 25.668px rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(51.336px);
+border-radius: 74.1925px;
+}
+    
+.selecteur{
+
+text-decoration: none;
+color: antiquewhite;
+
+}
+
+
+.navbar .logo {
+width: 7%;
+padding-bottom: 8px;
     }
     
       
