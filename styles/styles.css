@@ -12,6 +12,11 @@ body{
     background-color: #1DFAA8;
 }
     
+a:hover{
+
+    color: black;
+    
+}
     .navbar{
     
     color: antiquewhite;
@@ -28,6 +33,7 @@ body{
     backdrop-filter: blur(51.336px);
     border-radius: 74.1925px;
     }
+    
     
     .navbar .logo {
         width: 7%;
