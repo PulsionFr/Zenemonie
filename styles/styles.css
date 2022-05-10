@@ -1,0 +1,111 @@
+@font-face {
+    font-family:"tahu";
+    src: url(./Tahu!.ttf);
+
+    font-family: "bahnschrift";
+    src: url(./Bahnschrift\ Regular.ttf);
+}
+
+/* NAVIGATION & HEADER */
+
+#presentation {
+    position: absolute;
+    width: 100%;
+    height: 512px;
+    left: 0px;
+    top: 0px;
+    background: #1DFAA8;
+    }
+    
+    .navbar{
+    
+        align-items: center;
+    z-index: 1;
+    position: fixed;
+    width: 992px;
+    height: 64px;
+    left: 17%;
+    top: 30px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.56195px solid #FFFFFF;
+    box-shadow: inset 25.668px -25.668px 25.668px rgba(194, 194, 194, 0.1), inset -25.668px 25.668px 25.668px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(51.336px);
+    border-radius: 74.1925px;
+    }
+    
+    .navbar .logo {
+        position: relative;
+        align-self: center;
+        top: 3px;
+        width: 10%;
+        height: 55px;
+        left: 27em;
+    }
+    
+    /* CATEGORIES DE NAVIGATION */
+    
+    #prestations {
+        z-index: 1;
+    position: relative;
+    top: -52px;
+    left: 3%;
+       font-family: "bahnschrift";
+       color: antiquewhite;
+    
+    }
+    
+    #prestataires {
+        z-index: 1;
+        position: relative;
+        top: -87px;
+        left: 19%;
+           font-family: "bahnschrift";
+           color: antiquewhite;
+    }
+    
+    #forum{
+    
+        z-index: 1;
+        position: relative;
+        top: -123px;
+        left: 32%;
+           font-family: "bahnschrift";
+           color: antiquewhite;
+    }
+    
+    #contact{
+        z-index: 1;
+        position: relative;
+        top: -158px;
+        left: 57%;
+           font-family: "bahnschrift";
+           color: antiquewhite;
+    }
+    
+    #panier{
+        z-index: 1;
+        position: relative;
+        top: -193px;
+        left: 72%;
+           font-family: "bahnschrift";
+           color: antiquewhite;
+    
+    }
+    
+    #compte {
+        z-index: 1;
+        position: relative;
+        top: -228px;
+        left: 84%;
+        font-family: "bahnschrift";
+        color: antiquewhite;
+    }
+    
+    #presentation h1 {
+        position: relative;
+        top: 30%;
+        left: 22%;
+        font-size: 40px;
+        color: antiquewhite;
+    }
