@@ -15,7 +15,7 @@ body{
     
 a:hover{
 
-    color: rgb(57, 114, 221);
+    color: rgb(4, 75, 4);
     text-decoration: none;
 
     
@@ -23,6 +23,7 @@ a:hover{
 
 .navbar{
     
+position: fixed;
 color: antiquewhite;
 z-index: 1;
 width: 992px;
