@@ -1,5 +1,6 @@
 <!doctype html>
 
+<?php session_start(); ?>
 <html lang="fr">
 
   <head>
@@ -9,7 +10,9 @@
   </head>
 
 <body>
-  
+
+<form method="POST" action="./comptes/login.php">
+
   <main class="form-signin">
     <form>
       <img class="form-signin" src="./sources/logo/Logo_blanc.png" alt="logo_connexion">
