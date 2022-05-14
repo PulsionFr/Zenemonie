@@ -30,7 +30,7 @@ $users = $query->fetchAll();
 die(var_dump($users));
 
 if (count($users) === 0) {
-    // Renvoyer une erreur en session à la page index.php
+    // Renvoyer une erreur en session à la page connexion.php
     header("Location: ./comptes/connexion.php");
     die();
 }
