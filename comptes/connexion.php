@@ -15,7 +15,7 @@
 
   <main class="form-signin">
     <form>
-      <img class="form-signin" src="./sources/logo/Logo_blanc.png" alt="logo_connexion">
+      <img class="form-signin" src="./styles/images/Logo.png" alt="logo_connexion">
       <h1 class="H1">Connexion</h1>
       <div class="form-floating">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
