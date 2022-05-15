@@ -26,13 +26,13 @@
         <label for="floatingPassword">Mot de passe</label>
       </div>
 
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Ce souvenir de moi </input>
-        </label>
+      <div class="inscription mb-3">
+        <a href="./comptes/inscription.php" class="redirection"> Vous n'avez pas encore de compte</a>
       </div>
+
       <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
     </form>
   </main>
+  
 </body>
 </html>
