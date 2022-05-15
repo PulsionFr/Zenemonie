@@ -1,0 +1,78 @@
+#dropzones {
+    width:50%;
+    height:50%;
+    display:grid;
+  }
+  
+  .dropzone {
+    position:relative;
+  }
+  .puzzle {
+    position:absolute; top:0; left:0;
+    width:100%; height:100%;
+  }
+  .puzzle:hover {
+    box-shadow:0 0 5px 1px red,0 0 0 1px black;
+    z-index:2;
+  }
+  
+  body {
+    min-height:100vh;
+    display:grid;
+    grid-template-areas:
+      "d d d d d"
+      "d d d d d"
+      "d d d d d"
+      "c c c c c";
+    grid-template-rows:repeat(3,1fr) 0.2fr;
+    grid-template-columns:repeat(5,1fr);
+    background:radial-gradient(#444,#222);
+  }
+  
+  #controls { 
+    grid-area:c;
+    display:flex; width:100%;
+    color:#eee;
+  }
+  .control {
+    flex:1 1 auto;
+    display:flex; flex-flow:column nowrap;
+  }
+  .control .label {
+    height:1em;
+    flex:0 0 auto;
+  }
+  .control input, .control select, .control button, .control option {
+    flex:1 1 auto;
+    width:100%;
+    box-sizing:border-box; 
+    border:thin #aaa solid;
+    border-bottom:0 none;
+    margin:0;
+    padding:0 0.5em;
+  }
+  
+  
+  
+  #dropzones-wrap { 
+    grid-area:d;
+    width:100%; height:100%;
+    display:flex;align-items:center;justify-content:center;
+    padding:30px;box-sizing:border-box;
+  }
+  
+  @-webkit-keyframes solved {
+    0% {opacity:1;transform:scale(1)}
+    10% {opacity:0;transform:rotateY(12deg)}
+    25% {opacity:1;transform:scale(0.8)}
+    50%{opacity:0;transfrom:scale(1)}
+    100%{opacity:1;transform:rotateY(-12deg);}
+  }
+  
+  @keyframes solved {
+    0% {opacity:1;transform:scale(1)}
+    10% {opacity:0;transform:rotateY(12deg)}
+    25% {opacity:1;transform:scale(0.8)}
+    50%{opacity:0;transfrom:scale(1)}
+    100%{opacity:1;transform:rotateY(-12deg);}
+  }

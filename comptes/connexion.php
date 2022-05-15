@@ -1,5 +1,6 @@
 <!doctype html>
 
+<?php session_start(); ?>
 <html lang="fr">
 
   <head>
@@ -9,10 +10,12 @@
   </head>
 
 <body>
-  
+
+<form method="POST" action="./comptes/login.php">
+
   <main class="form-signin">
     <form>
-      <img class="form-signin" src="./sources/logo/Logo_blanc.png" alt="logo_connexion">
+      <img class="form-signin" src="./styles/images/Logo.png" alt="logo_connexion">
       <h1 class="H1">Connexion</h1>
       <div class="form-floating">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -23,13 +26,13 @@
         <label for="floatingPassword">Mot de passe</label>
       </div>
 
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Ce souvenir de moi </input>
-        </label>
+      <div class="inscription mb-3">
+        <a href="./comptes/inscription.php" class="redirection"> Vous n'avez pas encore de compte</a>
       </div>
+
       <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
     </form>
   </main>
+
 </body>
 </html>

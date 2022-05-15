@@ -1,10 +1,12 @@
 
 @font-face {
-    font-family:"tahu";
+    font-family:"tahu!";
     src: url(./Fonts/Tahu!.ttf);
+}
 
+@font-face {
     font-family: "bahnschrift";
-    src: url(./Fonts/Bahnschrift\ Regular.ttf);
+    src: url(./Fonts/Bahnschrift/Regular.ttf);
 }
 
 /* ---------------------------------------------------- NAVIGATION ---------------------------------------------------- */
@@ -53,4 +55,28 @@ width: 7%;
 padding-bottom: 8px;
     }
     
-      
+.titre {
+    text-align: center;
+    margin-top: 13%;
+    color: white;
+}
+
+.titre > p {
+    font-family: 'tahu!';
+    font-size: 350%;
+}
+
+.text-center {
+    margin-top: 3%;
+}
+
+.pres {
+    margin-top: 10%;
+}
+
+.p1 {
+    font-family: 'tahu!';
+    color: white;
+    margin-top: 15%;
+    
+}
