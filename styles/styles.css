@@ -11,7 +11,12 @@
 
 /* ---------------------------------------------------- NAVIGATION ---------------------------------------------------- */
 
-body{
+.head{
+    background-color: #1DFAA8;
+    position: relative;
+}
+.head{
+    margin-top: 0%;
     background-color: #1DFAA8;
 }
     
@@ -24,8 +29,7 @@ a:hover{
 }
 
 .navbar{
-    
-position: fixed;
+background-color: #1DFAA8;
 color: antiquewhite;
 z-index: 1;
 width: 992px;
@@ -35,9 +39,8 @@ top: 30px;
 text-decoration: none;
     
     
-background: rgba(255, 255, 255, 0.1);
+
 border: 1.56195px solid #FFFFFF;
-box-shadow: inset 25.668px -25.668px 25.668px rgba(194, 194, 194, 0.1), inset -25.668px 25.668px 25.668px rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(51.336px);
 border-radius: 74.1925px;
 }
@@ -71,19 +74,39 @@ padding-bottom: 8px;
 }
 
 .pres {
-    margin-top: 10%;
+    background-color: white;
 }
 
 .p1 {
     font-family: 'tahu!';
     color:#1DFAA8;
     margin-top: 20%;
-    text-align: center;
-    background-color:white;
+    text-align: 60%;
+    margin-left: 30%;
+    
+}
+
+.p2 {
+    font-family: 'tahu!';
+    color:#1DFAA8;
+    text-align: 60%;
+    margin-left: 30%;
     
 }
 
 .pres > p {
-    background-color: white;
     font-family: 'bahnschrift';
+    margin-left: 35%;
+}
+
+.redi-naissance {
+    background: linear-gradient(242.24deg, #F2A2A2 0%, #F2BEAC 100%);
+}
+
+.redi-mariage {
+    background: linear-gradient(241.57deg, #FA273D 0%, #FB717F 98.52%) ;
+}
+
+.redi-deuil {
+    background: linear-gradient(118.47deg, #F2B035 0%, #F2831E 98.11%);
 }
