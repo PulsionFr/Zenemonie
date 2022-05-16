@@ -45,3 +45,7 @@ body {
     margin-bottom: 10px;
     border-radius: 49px;
   }
+
+  .form-signin input[type="submit"] {
+    border-radius: 49px;
+  }

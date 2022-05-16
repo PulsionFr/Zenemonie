@@ -16,7 +16,7 @@
 
   <main class="form-signin">
     <form>
-      <img class="form-signin" src="./styles/images/Logo.png" alt="logo_connexion">
+      <img class="form-signin" src="../styles/images/Logo.png" alt="logo_connexion">
       <h1 class="H1">Connexion</h1>
       <div class="form-floating">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -31,7 +31,7 @@
         <a href="./comptes/inscription.php" class="redirection"> Vous n'avez pas encore de compte</a>
       </div>
 
-      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">se connecter</button>
     </form>
   </main>
 
