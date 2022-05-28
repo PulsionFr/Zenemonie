@@ -91,6 +91,13 @@ padding-bottom: 8px;
     
 }
 
+.p3 {
+    font-family: 'tahu!';
+    color:#1DFAA8;
+    text-align: center;
+    margin-top: 5%;
+}
+
 .pres > p {
     font-family: 'bahnschrift';
     margin-left: 35%;
