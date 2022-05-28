@@ -3,49 +3,153 @@
   src: url(./Fonts/Tahu!.ttf);
 }
 
-body {
-    height: 100%;
-  }
-  
-  body {
-    display: flex;
-    align-items: center;
-    background-color: #1DFAA8;
-  }
+@font-face {
+  font-family: "bahnschrift";
+  src: url(./Fonts/Bahnschrift/Regular.ttf);
+}
 
-.H1{
-  text-align: center;
-  font-family: 'tahu!';
+.bg-image{
+  width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+  .bg-image{
+      width: 0%;
+  }
+}
+
+
+.head{
+  background-color: #1DFAA8;
+  position: relative;
 }
 
   
-  .form-signin {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-  }
-  
-  .form-signin .checkbox {
-    font-weight: 400;
-  }
-  
-  .form-signin .form-floating:focus-within {
-    z-index: 2;
-  }
-  
-  .form-signin input[type="email"] {
-    margin-top: 10%;
-    margin-bottom: -1px;
-    border-radius: 49px;
-  }
-  
-  .form-signin input[type="password"] {
-    margin-top: 5%;
-    margin-bottom: 10px;
-    border-radius: 49px;
-  }
+a:hover{
 
-  .form-signin input[type="submit"] {
-    border-radius: 49px;
+  color: rgb(4, 75, 4);
+  text-decoration: none;
+
+  
+}
+
+.tranG {
+  object-position: left;
+}
+
+.tranD {
+  object-position: right;
+}
+
+.container-fluid{
+background-color: #1DFAA8;
+color: antiquewhite;
+z-index: 1;
+width: 70%;
+left: 17%;
+
+text-decoration: none;
+  
+  
+
+border: 1.56195px solid #FFFFFF;
+backdrop-filter: blur(51.336px);
+border-radius: 74.1925px;
+}
+  
+.selecteur{
+
+text-decoration: none;
+color: antiquewhite;
+
+}
+
+
+.container-fluid img{
+width: 50px;
+padding-bottom: 1%;
   }
+  
+.titre {
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+}
+
+.titre > p {
+  font-family: 'tahu!';
+  font-size: 350%;
+}
+
+.text-center {
+  margin-top: 3%;
+}
+
+
+.p1 {
+  font-family: 'tahu!';
+  color:#1DFAA8;
+  /*
+  margin-top: 20%;
+  text-align: 60%;
+  margin-left: 30%;
+  */
+}
+
+.p2 {
+  font-family: 'tahu!';
+  color:#1DFAA8;
+  /*
+  text-align: 60%;
+  margin-left: 30%;
+  */
+}
+
+.p3 {
+  font-family: 'tahu!';
+  color:#1DFAA8;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.pres > p {
+  font-family: 'bahnschrift';
+  margin-left: 35%;
+}
+
+.redi-naissance {
+  background: linear-gradient(242.24deg, #F2A2A2 0%, #F2BEAC 100%);
+  text-align: center;
+  
+}
+
+.logo-naissance {
+  margin-top: 6%;
+}
+
+.redi-mariage {
+  background: linear-gradient(241.57deg, #FA273D 0%, #FB717F 98.52%);
+  text-align: center;
+}
+
+.logo-mariage {
+  margin-top: 6%;
+}
+
+.redi-deuil {
+  background: linear-gradient(118.47deg, #F2B035 0%, #F2831E 98.11%);
+  text-align: center;
+}
+
+.logo-deuil {
+  margin-top: 6%;
+}
+
+
+.redi-bouton {
+  margin-top: 7%;
+  border-radius: 49px;
+  background-color:white;
+  cursor: pointer;
+  border-color: white;
+}
