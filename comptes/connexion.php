@@ -1,6 +1,9 @@
 <!doctype html>
 
-<?php session_start(); ?>
+<?php session_start();
+$DB = new connexionDB();
+?>
+
 <html lang="fr">
 
   <head>
