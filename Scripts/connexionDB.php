@@ -1,6 +1,6 @@
 <?php
 
-// Nous déclarons la classe
+// Nous déclarons la classe connxeion
 
 class connexionDB
 {
