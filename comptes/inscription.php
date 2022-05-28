@@ -86,7 +86,7 @@ if(!empty($_POST)){
     }
 }
 
-$req = $DB->query("SELECT * ﻿  FROM Client
+$req = $DB->query("SELECT * FROM Client
   WHERE mail = ?",
     array($mail));
 
