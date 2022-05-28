@@ -1,15 +1,15 @@
 <?php
 
-// Déclaration de la classe connexionDB
+// Nous déclarons la classe
 
 class connexionDB
 {
 
-    private $host = '54.37.9.77';   // Host
+    private $host = '54.37.9.77';   // Pour se connecter à notre serveur
 
-    private $name = 'zenemonie';     // nom de notre base de donnée
+    private $name = 'zenemonie';     // nom de la base de donnée utilisée
 
-    private $user = 'ZenemonieUser';        // L'Utilisateur
+    private $user = 'ZenemonieUser';        // Notre utilisateur créer spécialement pour
 
     private $pass = 'FrNyYYkGs344z9U';        // mot de passe
 
@@ -73,10 +73,7 @@ class connexionDB
 
 }
 
-?>
-
-
-// Faire une connexion à votre fonction
-
 $DB = new connexionDB();
+
+?>
 
