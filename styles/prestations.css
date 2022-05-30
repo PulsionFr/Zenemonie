@@ -1,0 +1,119 @@
+@font-face {
+    font-family:"tahu!";
+    src: url(./Fonts/Tahu!.ttf);
+}
+
+@font-face {
+    font-family: "bahnschrift";
+    src: url(./Fonts/Bahnschrift/Regular.ttf);
+}
+
+
+
+.head{
+    background-color: #1DFAA8;
+    position: relative;
+}
+
+a:hover{
+
+    color: rgb(4, 75, 4);
+    text-decoration: none;
+
+    
+}
+
+.navbar{
+    background-color: #1DFAA8;
+    color: antiquewhite;
+    z-index: 1;
+    width: 70%;
+    left: 17%;
+    margin-top: 3%;
+    text-decoration: none;
+        
+        
+    
+    border: 1.56195px solid #FFFFFF;
+    backdrop-filter: blur(51.336px);
+    border-radius: 74.1925px;
+    }
+        
+    .selecteur{
+    
+    text-decoration: none;
+    color: antiquewhite;
+    
+    }
+    
+    
+    .navbar .logo {
+    width: 7%;
+    padding-bottom: 1%;
+    }
+
+    .logo_head {
+        position: relative;
+        text-align: center;
+        margin-top: 3%;
+        font-family: 'tahu!';
+        color: white;
+        font-size: 400%;
+    } 
+
+
+    .baby {
+        background-color: #F2B1A7;
+    }
+
+    #photo_baby {
+        margin-top: 4%;
+        width: 25%;
+        margin-left: 2%;
+        
+    }
+
+    h2 {
+        font-family: 'tahu!';
+        margin-left: 30%;
+        color: white;
+        font-size: 350%;
+        
+    }
+
+    .baby > p {
+        margin-left: 30%;
+        margin-right: 15%;
+    }
+
+    .redi-bouton {
+        margin-top: 2%;
+        border-radius: 49px;
+        background-color:white;
+        cursor: pointer;
+        border-color: white;
+        margin-left: 50%;
+    }
+
+    .mariage {
+        background-color: #FA354A;
+    }
+
+    #photo_mariage {
+        margin-top: 4%;
+        width: 25%;
+        margin-left: 70%;
+        
+    }
+
+    .mariage > p {
+        margin-left: 4%;
+        margin-right: 36%;
+    }
+
+    .mariage > h2 {
+        font-family: 'tahu!';
+        margin-left: 4%;
+        color: white;
+        font-size: 350%;
+    }
